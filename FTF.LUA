@@ -1,7 +1,4 @@
 local Players = game:GetService("Players")
+local player = Players.LocalPlayer
 
-Players.PlayerAdded:Connect(function(player)
-    if player.Name == "PlayerName" then
-        player:Kick("go on https://nsense.fun and click on copy loadstring!")
-    end
-end)
+player:Kick("Head to https://nsense.fun/ and click copy loadstring for Nonsense Script! Dont forget to join the discord server https://nsense.fun/discord")
